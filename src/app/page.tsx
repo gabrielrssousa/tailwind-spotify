@@ -1,4 +1,11 @@
-import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight } from "lucide-react";
+import {
+  Home as HomeIcon,
+  Search,
+  Library,
+  ChevronLeft,
+  ChevronRight,
+  Play,
+} from "lucide-react";
 
 export default function Home() {
   return (
@@ -41,10 +48,30 @@ export default function Home() {
             </a>
           </nav>
           <nav className="mt-10 pt-10 border-t border-zinc-800 flex flex-col gap-3">
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors">Top Brasil</a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors">Daily Mix 2</a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors">My Playlist #21</a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors">This is Måneskin</a>
+            <a
+              href=""
+              className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors"
+            >
+              Top Brasil
+            </a>
+            <a
+              href=""
+              className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors"
+            >
+              Daily Mix 2
+            </a>
+            <a
+              href=""
+              className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors"
+            >
+              My Playlist #21
+            </a>
+            <a
+              href=""
+              className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors"
+            >
+              This is Måneskin
+            </a>
           </nav>
         </aside>
         <main className="flex-1 p-6">
@@ -57,12 +84,188 @@ export default function Home() {
             </button>
           </div>
 
-          <h1 className="text-semibold 3xl mt-10">Good Afternoon</h1>
+          <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
 
           <div className="grid grid-cols-3 gap-4 mt-4">
-            <a href="#" className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
-            <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={104} height={104} />
-            <strong>Rush! (Are U Coming?)</strong>
+            <a
+              href="#"
+              className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
+            >
+              <img
+                src="/covers/rush.jpg"
+                alt="Rush! (Are U Coming?)"
+                width={104}
+                height={104}
+              />
+              <strong>Rush! (Are U Coming?)</strong>
+              <button
+                className="
+                flex
+                w-12
+                h-12
+                pl-1
+                mr-8
+                ml-auto
+                items-center
+                justify-center
+                rounded-full
+                bg-green-400
+                text-black
+                invisible
+                group-hover:visible"
+              >
+                <Play />
+              </button>
+            </a>
+            <a
+              href="#"
+              className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
+            >
+              <img
+                src="/covers/rush.jpg"
+                alt="Rush! (Are U Coming?)"
+                width={104}
+                height={104}
+              />
+              <strong>Rush! (Are U Coming?)</strong>
+              <button
+                className="
+                flex
+                w-12
+                h-12
+                pl-1
+                mr-8
+                ml-auto
+                items-center
+                justify-center
+                rounded-full
+                bg-green-400
+                text-black
+                invisible
+                group-hover:visible"
+              >
+                <Play />
+              </button>
+            </a>
+            <a
+              href="#"
+              className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
+            >
+              <img
+                src="/covers/rush.jpg"
+                alt="Rush! (Are U Coming?)"
+                width={104}
+                height={104}
+              />
+              <strong>Rush! (Are U Coming?)</strong>
+              <button
+                className="
+                flex
+                w-12
+                h-12
+                pl-1
+                mr-8
+                ml-auto
+                items-center
+                justify-center
+                rounded-full
+                bg-green-400
+                text-black
+                invisible
+                group-hover:visible"
+              >
+                <Play />
+              </button>
+            </a>
+            <a
+              href="#"
+              className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
+            >
+              <img
+                src="/covers/rush.jpg"
+                alt="Rush! (Are U Coming?)"
+                width={104}
+                height={104}
+              />
+              <strong>Rush! (Are U Coming?)</strong>
+              <button
+                className="
+                flex
+                w-12
+                h-12
+                pl-1
+                mr-8
+                ml-auto
+                items-center
+                justify-center
+                rounded-full
+                bg-green-400
+                text-black
+                invisible
+                group-hover:visible"
+              >
+                <Play />
+              </button>
+            </a>
+            <a
+              href="#"
+              className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
+            >
+              <img
+                src="/covers/rush.jpg"
+                alt="Rush! (Are U Coming?)"
+                width={104}
+                height={104}
+              />
+              <strong>Rush! (Are U Coming?)</strong>
+              <button
+                className="
+                flex
+                w-12
+                h-12
+                pl-1
+                mr-8
+                ml-auto
+                items-center
+                justify-center
+                rounded-full
+                bg-green-400
+                text-black
+                invisible
+                group-hover:visible"
+              >
+                <Play />
+              </button>
+            </a>
+            <a
+              href="#"
+              className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
+            >
+              <img
+                src="/covers/rush.jpg"
+                alt="Rush! (Are U Coming?)"
+                width={104}
+                height={104}
+              />
+              <strong>Rush! (Are U Coming?)</strong>
+              <button
+                className="
+                flex
+                w-12
+                h-12
+                pl-1
+                mr-8
+                ml-auto
+                items-center
+                justify-center
+                rounded-full
+                bg-green-400
+                text-black
+                invisible
+                group-hover:visible"
+              >
+                <Play />
+              </button>
             </a>
           </div>
         </main>
