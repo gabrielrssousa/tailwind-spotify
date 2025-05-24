@@ -268,6 +268,12 @@ export default function Home() {
               </button>
             </a>
           </div>
+
+          <h2 className="font-semibold text-2xl mt-10">Made for Gabriel Sousa</h2>
+
+          <div className="grid grid-cols-5 gap-4 mt-4">
+            <div className="bg-white/5 p-2 rounded"></div>
+          </div>
         </main>
       </div>
       <footer className="bg-zinc-800 border-zinc-700 p-6">footer</footer>
