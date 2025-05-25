@@ -7,8 +7,6 @@ import {
   Play,
 } from "lucide-react";
 
-/* daily ping */
-
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
@@ -93,12 +91,7 @@ export default function Home() {
               href="#"
               className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
             >
-              <img
-                src="/covers/rush.jpg"
-                alt="Rush! (Are U Coming?)"
-                width={104}
-                height={104}
-              />
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={104} height={104} />
               <strong>Rush! (Are U Coming?)</strong>
               <button
                 className="
@@ -123,12 +116,7 @@ export default function Home() {
               href="#"
               className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
             >
-              <img
-                src="/covers/rush.jpg"
-                alt="Rush! (Are U Coming?)"
-                width={104}
-                height={104}
-              />
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={104} height={104} />
               <strong>Rush! (Are U Coming?)</strong>
               <button
                 className="
@@ -153,12 +141,7 @@ export default function Home() {
               href="#"
               className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
             >
-              <img
-                src="/covers/rush.jpg"
-                alt="Rush! (Are U Coming?)"
-                width={104}
-                height={104}
-              />
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={104} height={104} />
               <strong>Rush! (Are U Coming?)</strong>
               <button
                 className="
@@ -183,12 +166,7 @@ export default function Home() {
               href="#"
               className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
             >
-              <img
-                src="/covers/rush.jpg"
-                alt="Rush! (Are U Coming?)"
-                width={104}
-                height={104}
-              />
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={104} height={104} />
               <strong>Rush! (Are U Coming?)</strong>
               <button
                 className="
@@ -213,12 +191,7 @@ export default function Home() {
               href="#"
               className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
             >
-              <img
-                src="/covers/rush.jpg"
-                alt="Rush! (Are U Coming?)"
-                width={104}
-                height={104}
-              />
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={104} height={104} />
               <strong>Rush! (Are U Coming?)</strong>
               <button
                 className="
@@ -243,12 +216,7 @@ export default function Home() {
               href="#"
               className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
             >
-              <img
-                src="/covers/rush.jpg"
-                alt="Rush! (Are U Coming?)"
-                width={104}
-                height={104}
-              />
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={104} height={104} />
               <strong>Rush! (Are U Coming?)</strong>
               <button
                 className="
