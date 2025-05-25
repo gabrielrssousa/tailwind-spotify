@@ -26,21 +26,21 @@ export default function Home() {
 
           <nav className="space-y-5 mt-10">
             <a
-              href=""
+              href="#"
               className="flex items-center gap-2 text-xm font-semibold text-zinc-200"
             >
               <HomeIcon />
               Home
             </a>
             <a
-              href=""
+              href="#"
               className="flex items-center gap-2 text-sm font-semibold text-zinc-200"
             >
               <Search />
               Search
             </a>
             <a
-              href=""
+              href="#"
               className="flex items-center gap-2 text-sm font-semibold text-zinc-200"
             >
               <Library />
@@ -49,25 +49,25 @@ export default function Home() {
           </nav>
           <nav className="mt-10 pt-10 border-t border-zinc-800 flex flex-col gap-3">
             <a
-              href=""
+              href="#"
               className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors"
             >
               Top Brasil
             </a>
             <a
-              href=""
+              href="#"
               className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors"
             >
               Daily Mix 2
             </a>
             <a
-              href=""
+              href="#"
               className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors"
             >
               My Playlist #21
             </a>
             <a
-              href=""
+              href="#"
               className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors"
             >
               This is Måneskin
