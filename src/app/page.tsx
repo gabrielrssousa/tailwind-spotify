@@ -7,6 +7,8 @@ import {
   Play,
 } from "lucide-react";
 
+/* daily ping */
+
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
