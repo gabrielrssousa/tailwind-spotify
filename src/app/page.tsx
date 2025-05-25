@@ -271,7 +271,9 @@ export default function Home() {
             </a>
           </div>
 
-          <h2 className="font-semibold text-2xl mt-10">Made for Gabriel Sousa</h2>
+          <h2 className="font-semibold text-2xl mt-10">
+            Made for Gabriel Sousa
+          </h2>
 
           <div className="grid grid-cols-5 gap-4 mt-4">
             <div className="bg-white/5 p-2 rounded"></div>
