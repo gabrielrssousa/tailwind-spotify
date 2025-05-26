@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable @next/next/no-img-element */
 import {
   Home as HomeIcon,
@@ -13,29 +14,25 @@ export default function Home() {
     <div className="h-screen flex flex-col">
       <div className="flex flex-1">
         <aside className="w-72 bg-zinc-950 p-6">
+
+          {/* IOS Dots (prank test) */} {/*
           <div className="flex items-center gap-2">
-            <div>
-              <div className="w-3 h-3 bg-red-500 rounded-full" />
-            </div>
-            <div>
-              <div className="w-3 h-3 bg-yellow-500 rounded-full" />
-            </div>
-            <div>
-              <div className="w-3 h-3 bg-green-500 rounded-full" />
-            </div>
-          </div>
+            <div className="w-3 h-3 bg-red-500 rounded-full" />
+            <div className="w-3 h-3 bg-yellow-500 rounded-full" />
+            <div className="w-3 h-3 bg-green-500 rounded-full" />
+          </div> */}
 
           <nav className="space-y-5 mt-10">
             <a href="#" className="flex items-center gap-2 text-xm font-semibold text-zinc-200">
-              <HomeIcon />
+              <HomeIcon/>
               Home
             </a>
             <a href="#" className="flex items-center gap-2 text-xm font-semibold text-zinc-200">
-              <Search />
+              <Search/>
               Search
             </a>
             <a href="#" className="flex items-center gap-2 text-xm font-semibold text-zinc-200">
-              <Library />
+              <Library/>
               Library
             </a>
           </nav>
@@ -50,10 +47,10 @@ export default function Home() {
         <main className="flex-1 p-6">
           <div className="flex items-center gap-3">
             <button className="rounded-full bg-black/40 p-1">
-              <ChevronLeft />
+              <ChevronLeft/>
             </button>
             <button className="rounded-full bg-black/40 p-1">
-              <ChevronRight />
+              <ChevronRight/>
             </button>
           </div>
 
@@ -79,7 +76,7 @@ export default function Home() {
                 invisible
                 group-hover:visible"
               >
-                <Play />
+                <Play/>
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
@@ -101,7 +98,7 @@ export default function Home() {
                 invisible
                 group-hover:visible"
               >
-                <Play />
+                <Play/>
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
@@ -123,7 +120,7 @@ export default function Home() {
                 invisible
                 group-hover:visible"
               >
-                <Play />
+                <Play/>
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
@@ -145,7 +142,7 @@ export default function Home() {
                 invisible
                 group-hover:visible"
               >
-                <Play />
+                <Play/>
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
@@ -167,7 +164,7 @@ export default function Home() {
                 invisible
                 group-hover:visible"
               >
-                <Play />
+                <Play/>
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
@@ -189,21 +186,67 @@ export default function Home() {
                 invisible
                 group-hover:visible"
               >
-                <Play />
+                <Play/>
               </button>
             </a>
           </div>
 
-          <h2 className="font-semibold text-2xl mt-10">
-            Made for Gabriel Sousa
-          </h2>
-
-          <div className="grid grid-cols-5 gap-4 mt-4">
-            <div className="bg-white/5 p-2 rounded"></div>
+          <h2 className="font-semibold text-2xl mt-10">Made for Gabriel Sousa</h2>
+          <div className="grid grid-cols-8 gap-4 mt-4">
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={120} height={120} className="w-full"/>
+              <strong className="font-semibold">Rush! (Are U Coming?)</strong>
+              <span className="text-sm">Måneskin</span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={120} height={120} className="w-full"/>
+              <strong className="font-semibold">Rush! (Are U Coming?)</strong>
+              <span className="text-sm">Måneskin</span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={120} height={120} className="w-full"/>
+              <strong className="font-semibold">Rush! (Are U Coming?)</strong>
+              <span className="text-sm">Måneskin</span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={120} height={120} className="w-full"/>
+              <strong className="font-semibold">Rush! (Are U Coming?)</strong>
+              <span className="text-sm">Måneskin</span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={120} height={120} className="w-full"/>
+              <strong className="font-semibold">Rush! (Are U Coming?)</strong>
+              <span className="text-sm">Måneskin</span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={120} height={120} className="w-full"/>
+              <strong className="font-semibold">Rush! (Are U Coming?)</strong>
+              <span className="text-sm">Måneskin</span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={120} height={120} className="w-full"/>
+              <strong className="font-semibold">Rush! (Are U Coming?)</strong>
+              <span className="text-sm">Måneskin</span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" width={120} height={120} className="w-full"/>
+              <strong className="font-semibold">Rush! (Are U Coming?)</strong>
+              <span className="text-sm">Måneskin</span>
+            </a>
           </div>
         </main>
       </div>
-      <footer className="bg-zinc-800 border-zinc-700 p-6">footer</footer>
+      <footer className="bg-zinc-800 border-zinc-700 p-6 flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <img src="/covers/rush.jpg" alt="Rush! (Are U Coming?)" className="" width={56} height={56}/>
+          <div className="flex flex-col">
+            <strong className="font-normal">BABY SAID</strong>
+            <span className="text-xs text-zinc-400">Måneskin</span>
+          </div>
+        </div>
+        <div></div>
+        <div></div>
+      </footer>
     </div>
   );
 }
