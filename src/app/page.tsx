@@ -46,7 +46,7 @@ export default function Home() {
                 invisible
                 group-hover:visible"
               >
-                <Play/>
+                <Play fill='bg-black' />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
@@ -68,7 +68,7 @@ export default function Home() {
                 invisible
                 group-hover:visible"
               >
-                <Play/>
+                <Play fill='bg-black' />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
@@ -90,7 +90,7 @@ export default function Home() {
                 invisible
                 group-hover:visible"
               >
-                <Play/>
+                <Play fill='bg-black' />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
@@ -112,7 +112,7 @@ export default function Home() {
                 invisible
                 group-hover:visible"
               >
-                <Play/>
+                <Play fill='bg-black' />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
@@ -134,7 +134,7 @@ export default function Home() {
                 invisible
                 group-hover:visible"
               >
-                <Play/>
+                <Play fill='bg-black' />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
@@ -156,7 +156,7 @@ export default function Home() {
                 invisible
                 group-hover:visible"
               >
-                <Play/>
+                <Play fill='bg-black' />
               </button>
             </a>
           </div>

@@ -17,7 +17,7 @@ export function Footer() {
             <SkipBack size={20} className="text-zinc-200"/>
             <button
               className="flex w-10 h-10 pl-1 items-center justify-center rounded-full bg-white text-black">
-                <Play/>
+                <Play fill='bg-black' />
             </button>
             <SkipForward size={20} className="text-zinc-200"/>
             <Repeat size={20} className="text-zinc-200"/>
